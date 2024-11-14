@@ -93,7 +93,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.ynmnh.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`,
+    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@devto-clone.lvc7a.mongodb.net/?retryWrites=true&w=majority&appName=devto-clone`,
     {
       useUnifiedTopology: true,
       useNewUrlParser: true,
